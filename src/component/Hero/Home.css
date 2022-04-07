@@ -1,0 +1,121 @@
+.hero {
+  /* position: relative; */ 
+  width: 100%;
+  padding-top: 40px;
+  margin-top: 10vh;
+}
+.hero h3 {
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.hero h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.hero h1 span {
+  color: #ff014f;
+}
+.hero h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff014f;
+}
+.hero h2 span {
+  color: black;
+}
+.hero p {
+  color: #001f3f;
+  opacity: .7;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-top: 30px;
+}
+/* .hero_btn {
+  margin-top: 20%;
+} */
+.hero_btn h4 {
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #43474b;
+  font-size: 15px;
+  margin: 30px 0 30px 0;
+}
+.hero_btn button {
+  margin: 0 15px 10px 15px;  
+}
+
+.hero_btn i {
+  font-size: 1.1rem;
+}
+
+.hero_btn button img {
+  width: 20px;
+  height: 20px;
+}
+.hero .left {
+  /* margin-right: 5%; */
+  padding-right: 20px;
+}
+/* .hero .right {
+  width: 40%;
+} */
+.hero .right_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+  /* background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff; */
+  border-radius: 10px;
+  height: 480px;
+  margin: 0;
+
+  background: linear-gradient(225deg, #cbcbcb, #f2f2f2);
+  box-shadow:  -6px 6px 12px #bebebe,
+             6px -6px 12px #ffffff;
+
+  /* height: 580px; */
+  /* width: 510px; */
+  /* margin-top: 20%; */
+}
+.hero .right_img img {
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  /* right: 10%; */
+  width: 349px;
+}
+
+@media (max-width: 768px) {
+
+  .hero .right,
+  .hero .left {
+    width: calc(100% - 20px);
+    padding: 0;    
+    margin-bottom: 40px;
+    
+    /* margin-left: 20px; */
+  }
+  
+  .hero .button{
+    text-align: center;
+  }
+  .hero .col_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexd{
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  /* .hero .f_flex {} */
+  /* .hero .right_img {
+    width: 100%;
+    height: 54vh; 
+    display: none; 
+  } */
+}
